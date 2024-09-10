@@ -12,3 +12,4 @@ public class pattern1 {
             System.out.println(" "); // will give a sq. 
         }
     }
+}

@@ -12,7 +12,20 @@ public class pattern2 {
         System.out.print(" ");
        }
        for(int j=1;j<=n-i;j++){
-        System.out.print("*");
+        System.out.print("* ");
        }
        System.out.println(" ");
     }
+    int x=5;
+    for(int i=0;i<=x;i++)
+    {
+       for(int k=1;k<=x-i;k++){
+        System.out.print(" ");
+       }
+       for(int j=1;j<=i;j++){
+        System.out.print("* ");
+       }
+       System.out.println(" ");
+    }
+   }
+}    
