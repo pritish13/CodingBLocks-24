@@ -31,7 +31,7 @@ public class arrays {
             int[] arr={2,4,5,1,6,8,9,5};
             Arrays.sort(arr);
             display(arr);
-            System.out.print(bsearch(arr, ));
+            System.out.print(bsearch(arr, 1));
             
         } 
     
