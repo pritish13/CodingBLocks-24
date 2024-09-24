@@ -46,24 +46,12 @@ public class reversektimes {
     //     rotatebyK(arr,k);   
     // } 
     static void rotatebyK(int[] arr,int k){
-        int[] temp = new int[arr.length];
-        for(int i=0;i<arr.length-k-1;i++){
-            temp[arr.length+1]=arr[i];
-             
-            }
-            //arr=temp;
-            for(int i=0;i<arr.length-k;i++){
-                temp[i]=arr[arr.length-k+i];
-            }
-            for(int i=0;i<k;i++){
-                arr[i]=temp[i];
-            }
-            display(arr);
-        }
+       reverse(arr, i:0, )
 
     
     public static void main(String[] args){
              int[] arr={1,2,3,4,5};
             rotatebyK(arr, 2);
+            lecture2.reverseSwap.display(arr);
         }
 }
