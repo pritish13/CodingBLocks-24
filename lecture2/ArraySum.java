@@ -31,8 +31,6 @@ public class ArraySum {
         for(int i=0;i<=temp[j].length;i++){
             System.out.println(temp[i+" "]);
         }
-        return 0;
-        
+        return 0;    
     }
-    
 }
