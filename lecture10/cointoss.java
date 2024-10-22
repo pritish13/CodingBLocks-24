@@ -10,7 +10,7 @@ public class cointoss {
         Cointoss(n-1,ans+"T");
     }
     public static void main(String[] args) {
-        int n=100;
+        int n=10;
         Cointoss(n," ");
 
     }
