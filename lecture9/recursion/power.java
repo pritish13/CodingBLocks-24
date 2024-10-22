@@ -3,7 +3,7 @@ package lecture9.recursion;
 public class power {
     static int Power(int x,int n){
         if(n==0)
-        return x*Power(x, 0);
+        return (int) (x*Math.pow(x, -1));
         int p = x*Power(x, n-1);
         return p;
     }
